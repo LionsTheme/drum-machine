@@ -18,9 +18,9 @@ module.exports = {
     themes: [
       {
         MPTheme: {
-          primary: "#007bff",
+          primary: "#3df2f2",
 
-          secondary: "#475569",
+          secondary: "#2E2F30",
 
           accent: "#22c55e",
 

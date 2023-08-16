@@ -37,3 +37,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #f6f6f6;
+}

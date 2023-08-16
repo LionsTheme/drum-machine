@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 // Define metadata for the page
 export const metadata: Metadata = {
-  title: "FCC Markdown Previewer",
+  title: "FCC Drum Machine",
   description:
     "This project is part of the Free Code Camp Front-End Development Libraries Certification. Built with Next.js",
 };
@@ -57,9 +57,7 @@ export default function RootLayout({
           <Header className="z-10" />
           <div
             id="content"
-            className={
-              "relative flex-1 overflow-auto z-0 pt-8 md:pt-10 lg:pt-12 pb-6 sm:pb-8 md:pb-10"
-            }
+            className={"relative flex flex-1 overflow-auto z-0"}
           >
             {children}
           </div>
