@@ -13,7 +13,7 @@ const Keyboard: FC<KeyboardProps> = ({ className, soundsGroup, play }) => {
     <div className={classNames("keyboard grid grid-cols-3 gap-2", className)}>
       {soundsGroup.map(({ keyCode, key, id, url }: SoundsType) => (
         <button
-          className="drum-pad btn btn-primary text-3xl font-bold w-20 h-16 focus:outline-none"
+          className="drum-pad btn btn-primary text-3xl font-bold w-16 h-14 sm:w-20 sm:h-16 focus:outline-none"
           id={`${keyCode}`}
           key={keyCode}
           onClick={() => play(key, id)}

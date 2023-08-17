@@ -14,7 +14,7 @@ type HeaderProps = {
  *
  * The  Header  component is defined as a functional component that takes in props of type  HeaderProps . The  HeaderProps  type includes an optional  className  property for additional CSS classes.
  *
- * Inside the component, a  header  element is rendered with a className that combines the default classes "flex items-center justify-center bg-primary text-primary-content h-12 md:h-14 lg:h-16 xl:h-20 prose-h1:text-xl md:prose-h1:text-2xl lg:prose-h1:text-3xl xl:prose-h1:text-4xl" with the provided  className  prop.
+ * Inside the component, a  header  element is rendered with a className that combines the default classes "flex items-center justify-center bg-primary text-primary-content h-12 md:h-14 lg:h-16 xl:h-20 prose-h1:text-xl md:prose-h1:text-2xl lg:prose-h1:text-3xl" with the provided  className  prop.
  *
  * Inside the  header  element, an  h1  element is rendered with the text "Markdown Live Preview" and a className of "mb-0 text-current".
  *
@@ -29,7 +29,7 @@ const Header: FC<HeaderProps> = ({ className }): JSX.Element => {
   return (
     <header
       className={classNames(
-        "flex items-center justify-center bg-primary text-primary-content h-12 md:h-14 lg:h-16 xl:h-20 prose-h1:text-xl md:prose-h1:text-2xl lg:prose-h1:text-3xl xl:prose-h1:text-4xl",
+        "flex items-center justify-center bg-primary text-primary-content h-12 md:h-14 lg:h-16 prose-h1:text-xl md:prose-h1:text-2xl lg:prose-h1:text-3xl",
         className
       )}
     >
